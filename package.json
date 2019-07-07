@@ -1,0 +1,29 @@
+{
+  "name": "simpul",
+  "version": "1.0.0",
+  "description": "Get input as easy as python.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel indexuncompiled.js -d index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finngreiter/simpul.git"
+  },
+  "keywords": [
+    "input",
+    "simple",
+    "easy",
+    "betterthanreadlineforsure"
+  ],
+  "author": "Finn Greiter",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/finngreiter/simpul/issues"
+  },
+  "homepage": "https://github.com/finngreiter/simpul#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}
